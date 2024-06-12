@@ -143,7 +143,13 @@ h1{
     margin-top: 0px;
 }
 
-
+h2{
+    font-size:larger; 
+    font-weight: bold; 
+    margin-top: 7px; 
+    margin-bottom: 7px;
+    text-align: left;
+}
 
 button, .buybutton{
     background-color: black;
@@ -225,7 +231,7 @@ iframe{
     position: absolute;
 }
 
-main, button, button:active, .videocontainer, iframe, select, .propagandagrid img, .productimage, .productimagepickerthumbnail {
+main, button, button:active, .videocontainer, iframe, select, .propagandagrid img, .productimage, .productimagepickerthumbnail, .propagandaposter img{
     outline-style: solid;
     outline-color: white;
     outline-width: 1.5px;
@@ -423,6 +429,104 @@ position: relative;
     animation: constructwiggle .2s linear infinite alternate;
 }
 
+.propheader{
+    margin-top: .4em;
+    margin-bottom: .1em;
+    font-weight: bold; 
+    font-size: 25px; 
+    text-align: left;
+}
+
+.propagandaposter{
+    display: flex;
+    padding: 10px 0 10px 0;
+    column-gap: 20px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+.propagandaposterinfo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    min-width: 250px;
+    text-align: left;
+    flex: 1 1;
+    max-height: 258.82px;
+}
+
+.propagandaposter img{
+width: 200px;
+height: fit-content;
+aspect-ratio: 8.5 / 11;
+flex-basis: 0 0 200px;
+}
+
+.propagandaposter button{
+    width: 100%;
+    max-width: 100%;
+    }
+
+.propagandaposter h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 0;
+}
+
+hr{
+    color: white;
+    border-style: solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1100px) {
     .content{
         height: min-content;
@@ -448,7 +552,6 @@ position: relative;
     min-width: auto;
     width: 100%;
 }
-
 
 .productimagepicker{
     height: 66.5px;
@@ -554,12 +657,18 @@ margin-top: -10px;
     justify-content: space-around;
 }
 
-    }
 
-.propheader{
-    margin-top: .4em;
-    margin-bottom: .1em;
-    font-weight: bold; 
-    font-size: 25px; 
-    text-align: left;
+/*
+.propagandaposter{
+    flex-direction: column;
+    align-items: center;
+}
+
+.propagandaposter img{
+    width: 50%;
+    object-fit:scale-down;
+    text-align: center;
+    aspect-ratio: 8.5 / 11;
+
+*/
 }
