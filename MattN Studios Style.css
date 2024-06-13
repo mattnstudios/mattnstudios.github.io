@@ -58,8 +58,21 @@ select{
     appearance: none;
     border-radius: 0;
     text-align: left;
+    pointer-events: auto;
 }
 
+select:hover{
+    color: yellow;
+    outline-color: yellow;
+}
+
+.mattnselect:has(select:hover)::after{
+    border-color: yellow;
+}
+
+.mattnselect{
+    pointer-events: none;
+}
 
 .mattnselect::after{
     content: '';
@@ -246,6 +259,18 @@ main, button, button:active, .videocontainer, iframe, select, .propagandagrid im
     flex-direction: column;
     justify-content: space-between;
     flex: 1;    
+}
+
+.workentrycaption a{
+color: white;
+}
+
+.workentrycaption a:hover{
+    color: yellow;
+}
+
+.workentrycaption a:active{
+    color: white;
 }
 
 .workentry img{
@@ -444,6 +469,7 @@ position: relative;
     row-gap: 15px;
     flex-wrap: wrap;
     justify-content: center;
+    
     }
 
 .propagandaposterinfo{
@@ -480,6 +506,10 @@ hr{
     border-style: solid;
 }
 
+.propagandapostertext{
+    overflow: scroll;
+    background-color: #000000;
+}
 
 
 
