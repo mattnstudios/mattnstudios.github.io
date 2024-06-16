@@ -437,6 +437,8 @@ position: relative;
     2%, 14%, 27%, 55%, 77%, 92%{filter: drop-shadow(0 0 10px #ffa710c1);}
     }
 
+
+
 @keyframes constructwiggle{
     0%,100%{transform: translate(.15px, -.3px);}
     20%{transform: translate(-.1px, .2px);}
