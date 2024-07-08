@@ -261,15 +261,15 @@ main, button, button:active, .videocontainer, iframe, select, .propagandagrid im
     flex: 1;    
 }
 
-.workentrycaption a{
+.hoverableword{
 color: white;
 }
 
-.workentrycaption a:hover{
+.hoverableword:hover{
     color: yellow;
 }
 
-.workentrycaption a:active{
+.hoverableword:active{
     color: white;
 }
 
