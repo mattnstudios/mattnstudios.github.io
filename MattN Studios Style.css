@@ -481,11 +481,10 @@ position: relative;
     min-width: 250px;
     text-align: left;
     flex: 1 1;
-    max-height: 258.82px;
 }
 
 .propagandaposter img{
-width: 200px;
+width: 225px;
 height: fit-content;
 aspect-ratio: 8.5 / 11;
 flex-basis: 0 0 200px;
