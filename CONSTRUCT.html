@@ -2,6 +2,7 @@
 <html>
    <head>
         <title>CONSTRUCT</title>
+       <link rel="stylesheet" href="CONSTRUCT Style.css">
        <link rel="icon" type="image/x-icon" href="images/CONSTRUCTcover.jpg">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <meta name="og:title" content="CONSTRUCT">
@@ -18,30 +19,53 @@
     <body>
         <div data-nosnippet>
             <main>
-<h1 style="color: red; text-align: center; margin-bottom: 10px;">THIS WEBSITE HAS BEEN SEIZED BY THE FBI</h1>
-<img src="images/CONSTRUCT/fbiseal.jpg" style="width: 200px; position:relative; left:50%; margin-left: -100px;">
+                <a href="/construct.html"><img src="images/worklogoconstruct.png" style="width: 100%;">
+                <img src="images/CONSTRUCTsubtitle.png" style="width: 75%; ">
+            </a>
             
+                <div class="workentryvideocontainer">
+                    <div class="videocontainer">
+                        <iframe src="https://www.youtube.com/embed/uzvM9bxd5g8" title="CONSTRUCT TEASER" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <img src="/images/CONSTRUCTgraphics/CONSTRUCTdivider.png" class="constructdivider" style="margin-top: 10px;">
 
-            <hr>
-
-            <p>The contents of this website are unavailable due to an ongoing federal investigation. Certain portions of the redacted content are still available at:</p>
-    
-        <ul>
-            <a href="https://youtube.com/playlist?list=PLDLAO4_xn73rAPCsTOVB7k2RXWK8AVZev&si=wF8rh5809ooBcgaM"><li>Youtube</li></a>
-            <a href="https://open.spotify.com/album/3dZhosO0oC77xEM43eUWVH"><li>Spotify</li></a>
-            <a href="https://music.apple.com/us/album/construct/1702923759"><li>Apple Music</li></a>
-            <a href="https://soundcloud.com/mattnstudios/sets/construct"><li>Soundcloud</li></a>
-        </ul>
-    </main>
-    <footer style="text-align: center;position: absolute;
-    bottom: 0px; left: 50%; transform: translateX(-50%);">
-        <a href="/">
-            
-            <p>© 2024 MattN Studios</p>
-        
-        </a>
-    </footer>
+                <a href="https://youtube.com/playlist?list=PLDLAO4_xn73rAPCsTOVB7k2RXWK8AVZev&si=wF8rh5809ooBcgaM"><div class="streamingoption">
+<img src="/images/CONSTRUCTgraphics/CONSTRUCTyoutubelogo.png" class="streaminglogo" style="margin-top: -10px;">
+<img src="/images/CONSTRUCTgraphics/CONSTRUCTplaybutton.png" class="streamingplay" style="transform: translateY(-2px);">
+</div></a>
+<img src="/images/CONSTRUCTgraphics/CONSTRUCTdivider.png" class="constructdivider">
+                    <a href="https://open.spotify.com/album/3dZhosO0oC77xEM43eUWVH"><div class="streamingoption">
+<img src="/images/CONSTRUCTgraphics/CONSTRUCTspotifylogo.png" class="streaminglogo" style="margin: -12.5px 0 -5px 0;">
+<img src="/images/CONSTRUCTgraphics/CONSTRUCTplaybutton.png" class="streamingplay" style="transform: translateY(-1px);">
+</div></a>
+<img src="/images/CONSTRUCTgraphics/CONSTRUCTdivider.png" class="constructdivider">
+                <a href="https://music.apple.com/us/album/construct/1702923759"><div class="streamingoption">
+<img src="/images/CONSTRUCTgraphics/CONSTRUCTapplelogo.png" class="streaminglogo" style="margin-top: -10px; margin-left: 5px; width: 140px;">
+<img src="/images/CONSTRUCTgraphics/CONSTRUCTplaybutton.png" class="streamingplay" style="transform: translateY(-1px);">
+</div></a>
+<img src="/images/CONSTRUCTgraphics/CONSTRUCTdivider.png" class="constructdivider">
+                    <a href="https://soundcloud.com/mattnstudios/sets/construct"><div class="streamingoption">
+<img src="/images/CONSTRUCTgraphics/CONSTRUCTsoundcloudlogo.png" class="streaminglogo" style="margin-top: -5px;">
+<img src="/images/CONSTRUCTgraphics/CONSTRUCTplaybutton.png" class="streamingplay">
+</div></a>
+<img src="/images/CONSTRUCTgraphics/CONSTRUCTdivider.png" class="constructdivider"  style="margin-bottom: -3px;">
+            </main>
         </div>
+
+            <footer>
+                <div class="secondhalf" data-nosnippet></div>
+            </footer>
+
     </body>
+
+<script>
+const secondhalf = document.querySelector('.secondhalf')
+fetch('Assets/secondhalf.html')
+.then(res=>res.text())
+.then(data=>{
+    secondhalf.innerHTML=data
+})
+</script>
 
 </html>
