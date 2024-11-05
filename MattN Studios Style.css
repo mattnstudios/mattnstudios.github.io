@@ -387,7 +387,7 @@ position: relative;
     padding: 1.5px;
     justify-content: flex-start;
     column-gap: 10px;
-    overflow-x: scroll;
+    overflow-x: overlay;
     overflow-y: visible;
     transform: translateX(-1.5px);
     margin-bottom: 0px;
@@ -510,7 +510,7 @@ hr{
 }
 
 .propagandapostertext{
-    overflow: scroll;
+    overflow: overlay;
     background-color: #000000;
 }
 
@@ -708,30 +708,34 @@ margin-top: -10px;
 
 
 ::-webkit-scrollbar{
-    width:12.5px;
-    height:12.5px;
+    width:10px;
+    height:10px;
     background:transparent;
 }
 
 ::-webkit-scrollbar-thumb{
-    background:#ffffff47;
+    background:#ffffff35;
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover{
-    background:#ffffff73;
+    background:#ffffff50;
 }
 ::-webkit-scrollbar-thumb:active{
-    background:#ffffff8c;
+    background:#ffffff65;
 }
 
 ::-webkit-scrollbar-track{
-    display: none;
+    background: transparent;
+}
+
+::-webkit-scrollbar-track-piece{
+    background: transparent;
 }
 
 ::-webkit-scrollbar-corner{
-    display: none;
+    background: transparent;
 }
 
 ::-webkit-scrollbar-button {
-    display: none;
+    background: transparent;
 }
