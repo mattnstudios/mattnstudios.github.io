@@ -89,6 +89,8 @@ select:hover{
 }
 
 
+
+
 body{
     background-image:url('images/MattN BG.jpg');
     background-size:cover;
@@ -100,6 +102,8 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #000000;
+    scroll-margin: 0;
+    scroll-padding: 0;
 }
 
 .content{
@@ -380,7 +384,6 @@ position: relative;
 .productimagepicker{
     display: flex;
     width: 100%;
-    height: 50px;
     padding: 1.5px;
     justify-content: flex-start;
     column-gap: 10px;
@@ -701,4 +704,30 @@ margin-top: -10px;
     aspect-ratio: 8.5 / 11;
 
 */
+}
+
+
+::-webkit-scrollbar{
+    width:12.5px;
+    height:12.5px;
+    background:transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#ffffff47;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:#ffffff73;
+}
+::-webkit-scrollbar-thumb:active{
+    background:#ffffff8c;
+}
+
+::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+::-webkit-scrollbar-corner{
+    background:transparent
 }
