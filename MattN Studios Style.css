@@ -103,7 +103,7 @@ body{
     justify-content: center;
     background-color: #000000;
     scroll-margin: 0;
-    scroll-padding: 0;
+    scrollbar-gutter: stable;
 }
 
 .content{
@@ -725,9 +725,13 @@ margin-top: -10px;
 }
 
 ::-webkit-scrollbar-track{
-    background:transparent;
+    display: none;
 }
 
 ::-webkit-scrollbar-corner{
-    background:transparent
+    display: none;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
 }
