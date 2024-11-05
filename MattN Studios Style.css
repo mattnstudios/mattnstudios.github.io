@@ -725,17 +725,17 @@ margin-top: -10px;
 }
 
 ::-webkit-scrollbar-track{
-    background: transparent;
+    display:none;
 }
 
 ::-webkit-scrollbar-track-piece{
-    background: transparent;
+    display:none;
 }
 
 ::-webkit-scrollbar-corner{
-    background: transparent;
+    display:none;
 }
 
 ::-webkit-scrollbar-button {
-    background: transparent;
+    display:none;
 }
