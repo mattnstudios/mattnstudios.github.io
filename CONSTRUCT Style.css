@@ -157,3 +157,36 @@ a{
     margin: 5px 0 5px 0;
     height: 6px;
 }
+
+::-webkit-scrollbar{
+    width:10px;
+    height:10px;
+    background:transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#ffffff35;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:#ffffff50;
+}
+::-webkit-scrollbar-thumb:active{
+    background:#ffffff65;
+}
+
+::-webkit-scrollbar-track{
+    display:none;
+}
+
+::-webkit-scrollbar-track-piece{
+    display:none;
+}
+
+::-webkit-scrollbar-corner{
+    display:none;
+}
+
+::-webkit-scrollbar-button {
+    display:none;
+}
