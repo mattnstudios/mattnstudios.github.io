@@ -102,8 +102,6 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #000000;
-    scroll-margin: 0;
-    scrollbar-gutter: stable;
 }
 
 .content{
