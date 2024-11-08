@@ -388,7 +388,7 @@ position: relative;
     padding: 1.5px;
     justify-content: flex-start;
     column-gap: 10px;
-    overflow-x: overlay;
+    overflow-x: scroll;
     overflow-y: visible;
     transform: translateX(-1.5px);
     margin-bottom: 0px;
@@ -511,7 +511,7 @@ hr{
 }
 
 .propagandapostertext{
-    overflow: overlay;
+    overflow: scroll;
     background-color: #000000;
 }
 
